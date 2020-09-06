@@ -1,3 +1,5 @@
 D=document;
 B=D.body;
-C (type){ return B.createElement(type)}
+function CE (type){ return B.createElement(type)}
+function BR (){ return B.createElement("BR")}
+function HR (){ return B.createElement("HR")}
